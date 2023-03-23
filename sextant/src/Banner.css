@@ -1,0 +1,11 @@
+.Banner{
+    color: chocolate;
+    background-color: beige;
+    border: 0.30vw solid firebrick;
+    border-radius: 2vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75vw;
+    margin: 0.5vw;
+    padding: 0vw 2vw 0vw 2vw;
+}
