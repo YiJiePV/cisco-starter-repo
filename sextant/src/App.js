@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit'
 import GetIP from './GetIP'
+import Latency from './Latency';
 
 //main App component
 //includes Banner component and Exhibit components
@@ -18,7 +19,9 @@ class App extends Component{
           <Exhibit title='IPv6 Address'>
             <GetIP input="IPv6" />
           </Exhibit>
-          <Exhibit title='Exhibit 3'>This is exhibit 3</Exhibit>
+          <Exhibit title='Latency'>
+            <Latency/>
+          </Exhibit>
         </div>
       </div>
     );
